@@ -7,9 +7,9 @@ import (
 
 	"github.com/Ideful/langchaingo/documentloaders"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingongo/llms/openai"
-	"github.com/tmc/langchaingongo/schema"
-	"github.com/tmc/langchaingongo/textsplitter"
+	"github.com/Ideful/langchaingo/llms/openai"
+	"github.com/Ideful/langchaingo/schema"
+	"github.com/Ideful/langchaingo/textsplitter"
 )
 
 func loadTestData(t *testing.T) []schema.Document {

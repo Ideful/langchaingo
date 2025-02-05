@@ -7,8 +7,8 @@ import (
 	"log"
 
 	"github.com/Ideful/langchaingo/httputil"
-	"github.com/tmc/langchaingongo/llms"
-	"github.com/tmc/langchaingongo/llms/openai"
+	"github.com/Ideful/langchaingo/llms"
+	"github.com/Ideful/langchaingo/llms/openai"
 )
 
 var flagDebugHTTP = flag.Bool("debug-http", true, "enable debugging of HTTP requests and responses")

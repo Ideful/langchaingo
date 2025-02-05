@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 
 	"github.com/Ideful/langchaingo/internal/mongodb"
-	"github.com/tmc/langchaingongo/llms"
-	"github.com/tmc/langchaingongo/schema"
+	"github.com/Ideful/langchaingo/llms"
+	"github.com/Ideful/langchaingo/schema"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 )

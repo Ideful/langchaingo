@@ -6,9 +6,9 @@ import (
 	"os"
 
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/tmc/langchaingongo/llms"
-	"github.com/tmc/langchaingongo/llms/openai"
-	"github.com/tmc/langchaingongo/tools"
+	"github.com/Ideful/langchaingo/llms"
+	"github.com/Ideful/langchaingo/llms/openai"
+	"github.com/Ideful/langchaingo/tools"
 )
 
 // Model represents a Perplexity AI model type.

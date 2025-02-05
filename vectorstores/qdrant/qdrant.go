@@ -6,8 +6,8 @@ import (
 	"net/url"
 
 	"github.com/Ideful/langchaingo/embeddings"
-	"github.com/tmc/langchaingongo/schema"
-	"github.com/tmc/langchaingongo/vectorstores"
+	"github.com/Ideful/langchaingo/schema"
+	"github.com/Ideful/langchaingo/vectorstores"
 )
 
 type Store struct {

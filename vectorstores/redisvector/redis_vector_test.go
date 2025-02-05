@@ -14,12 +14,12 @@ import (
 	"github.com/testcontainers/testcontainers-go"
 	tcredis "github.com/testcontainers/testcontainers-go/modules/redis"
 	"github.com/testcontainers/testcontainers-go/wait"
-	"github.com/tmc/langchaingongo/embeddings"
-	"github.com/tmc/langchaingongo/llms"
-	"github.com/tmc/langchaingongo/llms/ollama"
-	"github.com/tmc/langchaingongo/schema"
-	"github.com/tmc/langchaingongo/vectorstores"
-	"github.com/tmc/langchaingongo/vectorstores/redisvector"
+	"github.com/Ideful/langchaingo/embeddings"
+	"github.com/Ideful/langchaingo/llms"
+	"github.com/Ideful/langchaingo/llms/ollama"
+	"github.com/Ideful/langchaingo/schema"
+	"github.com/Ideful/langchaingo/vectorstores"
+	"github.com/Ideful/langchaingo/vectorstores/redisvector"
 )
 
 const ollamaModel = "gemma:2b"

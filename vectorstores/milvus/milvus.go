@@ -10,8 +10,8 @@ import (
 	"github.com/Ideful/langchaingo/embeddings"
 	"github.com/milvus-io/milvus-sdk-go/v2/client"
 	"github.com/milvus-io/milvus-sdk-go/v2/entity"
-	"github.com/tmc/langchaingongo/schema"
-	"github.com/tmc/langchaingongo/vectorstores"
+	"github.com/Ideful/langchaingo/schema"
+	"github.com/Ideful/langchaingo/vectorstores"
 )
 
 // Store is a wrapper around the milvus client.

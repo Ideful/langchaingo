@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/tmc/langchaingongo/llms"
-	"github.com/tmc/langchaingongo/llms/cloudflare/internal/cloudflareclient"
+	"github.com/Ideful/langchaingo/llms"
+	"github.com/Ideful/langchaingo/llms/cloudflare/internal/cloudflareclient"
 )
 
 var (

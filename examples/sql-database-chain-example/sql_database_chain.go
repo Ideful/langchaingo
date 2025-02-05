@@ -8,9 +8,9 @@ import (
 	"os"
 
 	"github.com/Ideful/langchaingo/chains"
-	"github.com/tmc/langchaingongo/llms/openai"
-	"github.com/tmc/langchaingongo/tools/sqldatabase"
-	_ "github.com/tmc/langchaingongo/tools/sqldatabase/sqlite3"
+	"github.com/Ideful/langchaingo/llms/openai"
+	"github.com/Ideful/langchaingo/tools/sqldatabase"
+	_ "github.com/Ideful/langchaingo/tools/sqldatabase/sqlite3"
 )
 
 func main() {

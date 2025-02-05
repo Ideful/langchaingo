@@ -11,8 +11,8 @@ import (
 	zClient "github.com/getzep/zep-go/client"
 	zOption "github.com/getzep/zep-go/option"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingongo/memory"
-	"github.com/tmc/langchaingongo/memory/zep"
+	"github.com/Ideful/langchaingo/memory"
+	"github.com/Ideful/langchaingo/memory/zep"
 )
 
 func TestConversation(t *testing.T) {

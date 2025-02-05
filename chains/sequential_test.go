@@ -8,8 +8,8 @@ import (
 	"github.com/Ideful/langchaingo/memory"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingongo/prompts"
-	"github.com/tmc/langchaingongo/schema"
+	"github.com/Ideful/langchaingo/prompts"
+	"github.com/Ideful/langchaingo/schema"
 )
 
 var errDummy = errors.New("boom")

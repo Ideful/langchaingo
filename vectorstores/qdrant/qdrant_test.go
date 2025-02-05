@@ -14,11 +14,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/testcontainers/testcontainers-go"
 	tcqdrant "github.com/testcontainers/testcontainers-go/modules/qdrant"
-	"github.com/tmc/langchaingongo/embeddings"
-	"github.com/tmc/langchaingongo/llms/openai"
-	"github.com/tmc/langchaingongo/schema"
-	"github.com/tmc/langchaingongo/vectorstores"
-	"github.com/tmc/langchaingongo/vectorstores/qdrant"
+	"github.com/Ideful/langchaingo/embeddings"
+	"github.com/Ideful/langchaingo/llms/openai"
+	"github.com/Ideful/langchaingo/schema"
+	"github.com/Ideful/langchaingo/vectorstores"
+	"github.com/Ideful/langchaingo/vectorstores/qdrant"
 )
 
 func TestQdrantStore(t *testing.T) {

@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/tmc/langchaingongo/llms"
-	"github.com/tmc/langchaingongo/llms/local/internal/localclient"
+	"github.com/Ideful/langchaingo/llms"
+	"github.com/Ideful/langchaingo/llms/local/internal/localclient"
 )
 
 var (

@@ -9,9 +9,9 @@ import (
 
 	"github.com/Ideful/langchaingo/llms"
 	"github.com/mitchellh/go-wordwrap"
-	"github.com/tmc/langchaingongo/llms/cache"
-	"github.com/tmc/langchaingongo/llms/cache/inmemory"
-	"github.com/tmc/langchaingongo/llms/ollama"
+	"github.com/Ideful/langchaingo/llms/cache"
+	"github.com/Ideful/langchaingo/llms/cache/inmemory"
+	"github.com/Ideful/langchaingo/llms/ollama"
 )
 
 const WIDTH = 80

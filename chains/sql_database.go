@@ -6,10 +6,10 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/tmc/langchaingongo/memory"
-	"github.com/tmc/langchaingongo/prompts"
-	"github.com/tmc/langchaingongo/schema"
-	"github.com/tmc/langchaingongo/tools/sqldatabase"
+	"github.com/Ideful/langchaingo/memory"
+	"github.com/Ideful/langchaingo/prompts"
+	"github.com/Ideful/langchaingo/schema"
+	"github.com/Ideful/langchaingo/tools/sqldatabase"
 )
 
 //nolint:lll

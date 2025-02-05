@@ -2,10 +2,10 @@ package agents
 
 import (
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/tmc/langchaingongo/memory"
-	"github.com/tmc/langchaingongo/prompts"
-	"github.com/tmc/langchaingongo/schema"
-	"github.com/tmc/langchaingongo/tools"
+	"github.com/Ideful/langchaingo/memory"
+	"github.com/Ideful/langchaingo/prompts"
+	"github.com/Ideful/langchaingo/schema"
+	"github.com/Ideful/langchaingo/tools"
 )
 
 type Options struct {

@@ -6,8 +6,8 @@ import (
 	"log"
 
 	"github.com/Ideful/langchaingo/chains"
-	"github.com/tmc/langchaingongo/llms/openai"
-	"github.com/tmc/langchaingongo/prompts"
+	"github.com/Ideful/langchaingo/llms/openai"
+	"github.com/Ideful/langchaingo/prompts"
 )
 
 func main() {

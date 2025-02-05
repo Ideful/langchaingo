@@ -8,12 +8,12 @@ import (
 
 	"github.com/Ideful/langchaingo/agents"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingongo/chains"
-	"github.com/tmc/langchaingongo/llms/openai"
-	"github.com/tmc/langchaingongo/prompts"
-	"github.com/tmc/langchaingongo/schema"
-	"github.com/tmc/langchaingongo/tools"
-	"github.com/tmc/langchaingongo/tools/serpapi"
+	"github.com/Ideful/langchaingo/chains"
+	"github.com/Ideful/langchaingo/llms/openai"
+	"github.com/Ideful/langchaingo/prompts"
+	"github.com/Ideful/langchaingo/schema"
+	"github.com/Ideful/langchaingo/tools"
+	"github.com/Ideful/langchaingo/tools/serpapi"
 )
 
 type testAgent struct {

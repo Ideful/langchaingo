@@ -7,8 +7,8 @@ import (
 	"os"
 
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/tmc/langchaingongo/llms"
-	"github.com/tmc/langchaingongo/llms/ernie/internal/ernieclient"
+	"github.com/Ideful/langchaingo/llms"
+	"github.com/Ideful/langchaingo/llms/ernie/internal/ernieclient"
 )
 
 var (

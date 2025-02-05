@@ -5,8 +5,8 @@ import (
 	"errors"
 
 	"github.com/Ideful/langchaingo/embeddings"
-	"github.com/tmc/langchaingongo/schema"
-	"github.com/tmc/langchaingongo/vectorstores"
+	"github.com/Ideful/langchaingo/schema"
+	"github.com/Ideful/langchaingo/vectorstores"
 	"golang.org/x/exp/maps"
 )
 

@@ -6,8 +6,8 @@ import (
 	"text/template"
 
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/tmc/langchaingongo/tools"
-	"github.com/tmc/langchaingongo/tools/zapier/internal"
+	"github.com/Ideful/langchaingo/tools"
+	"github.com/Ideful/langchaingo/tools/zapier/internal"
 )
 
 type description struct {

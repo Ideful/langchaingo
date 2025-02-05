@@ -6,11 +6,11 @@ import (
 	"log"
 
 	"github.com/Ideful/langchaingo/llms/openai"
-	"github.com/tmc/langchaingongo/schema"
-	"github.com/tmc/langchaingongo/vectorstores/pgvector"
+	"github.com/Ideful/langchaingo/schema"
+	"github.com/Ideful/langchaingo/vectorstores/pgvector"
 
-	"github.com/tmc/langchaingongo/embeddings"
-	"github.com/tmc/langchaingongo/vectorstores"
+	"github.com/Ideful/langchaingo/embeddings"
+	"github.com/Ideful/langchaingo/vectorstores"
 )
 
 func main() {

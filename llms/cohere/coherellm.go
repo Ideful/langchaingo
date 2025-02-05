@@ -6,8 +6,8 @@ import (
 	"os"
 
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/tmc/langchaingongo/llms"
-	"github.com/tmc/langchaingongo/llms/cohere/internal/cohereclient"
+	"github.com/Ideful/langchaingo/llms"
+	"github.com/Ideful/langchaingo/llms/cohere/internal/cohereclient"
 )
 
 var (

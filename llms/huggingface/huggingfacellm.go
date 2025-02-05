@@ -6,8 +6,8 @@ import (
 	"os"
 
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/tmc/langchaingongo/llms"
-	"github.com/tmc/langchaingongo/llms/huggingface/internal/huggingfaceclient"
+	"github.com/Ideful/langchaingo/llms"
+	"github.com/Ideful/langchaingo/llms/huggingface/internal/huggingfaceclient"
 )
 
 var (

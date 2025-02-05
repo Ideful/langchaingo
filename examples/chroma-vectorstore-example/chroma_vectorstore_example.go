@@ -10,8 +10,8 @@ import (
 	"github.com/Ideful/langchaingo/schema"
 	chroma_go "github.com/amikos-tech/chroma-go/types"
 	"github.com/google/uuid"
-	"github.com/tmc/langchaingongo/vectorstores"
-	"github.com/tmc/langchaingongo/vectorstores/chroma"
+	"github.com/Ideful/langchaingo/vectorstores"
+	"github.com/Ideful/langchaingo/vectorstores/chroma"
 )
 
 func main() {

@@ -9,8 +9,8 @@ import (
 	"os"
 
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/tmc/langchaingongo/llms"
-	"github.com/tmc/langchaingongo/llms/anthropic/internal/anthropicclient"
+	"github.com/Ideful/langchaingo/llms"
+	"github.com/Ideful/langchaingo/llms/anthropic/internal/anthropicclient"
 )
 
 var (

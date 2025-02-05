@@ -6,8 +6,8 @@ import (
 	"os"
 
 	"github.com/Ideful/langchaingo/chains"
-	"github.com/tmc/langchaingongo/llms/openai"
-	"github.com/tmc/langchaingongo/schema"
+	"github.com/Ideful/langchaingo/llms/openai"
+	"github.com/Ideful/langchaingo/schema"
 )
 
 func main() {

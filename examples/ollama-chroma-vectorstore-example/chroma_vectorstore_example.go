@@ -9,10 +9,10 @@ import (
 
 	"github.com/Ideful/langchaingo/embeddings"
 	"github.com/google/uuid"
-	"github.com/tmc/langchaingongo/llms/ollama"
-	"github.com/tmc/langchaingongo/schema"
-	"github.com/tmc/langchaingongo/vectorstores"
-	"github.com/tmc/langchaingongo/vectorstores/chroma"
+	"github.com/Ideful/langchaingo/llms/ollama"
+	"github.com/Ideful/langchaingo/schema"
+	"github.com/Ideful/langchaingo/vectorstores"
+	"github.com/Ideful/langchaingo/vectorstores/chroma"
 )
 
 func main() {

@@ -7,9 +7,9 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/tmc/langchaingongo/chains"
-	"github.com/tmc/langchaingongo/schema"
-	"github.com/tmc/langchaingongo/tools"
+	"github.com/Ideful/langchaingo/chains"
+	"github.com/Ideful/langchaingo/schema"
+	"github.com/Ideful/langchaingo/tools"
 )
 
 const _intermediateStepsOutputKey = "intermediateSteps"

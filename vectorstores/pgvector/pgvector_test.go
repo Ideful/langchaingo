@@ -15,12 +15,12 @@ import (
 	"github.com/testcontainers/testcontainers-go"
 	tcpostgres "github.com/testcontainers/testcontainers-go/modules/postgres"
 	"github.com/testcontainers/testcontainers-go/wait"
-	"github.com/tmc/langchaingongo/embeddings"
-	"github.com/tmc/langchaingongo/llms/googleai"
-	"github.com/tmc/langchaingongo/llms/openai"
-	"github.com/tmc/langchaingongo/schema"
-	"github.com/tmc/langchaingongo/vectorstores"
-	"github.com/tmc/langchaingongo/vectorstores/pgvector"
+	"github.com/Ideful/langchaingo/embeddings"
+	"github.com/Ideful/langchaingo/llms/googleai"
+	"github.com/Ideful/langchaingo/llms/openai"
+	"github.com/Ideful/langchaingo/schema"
+	"github.com/Ideful/langchaingo/vectorstores"
+	"github.com/Ideful/langchaingo/vectorstores/pgvector"
 )
 
 func preCheckEnvSetting(t *testing.T) string {

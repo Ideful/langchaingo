@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/tmc/langchaingongo/llms/openai"
+	"github.com/Ideful/langchaingo/llms/openai"
 )
 
 func main() {
@@ -21,7 +21,7 @@ func main() {
 		llms.TextParts(llms.ChatMessageTypeHuman, "which image is this?"),
 		{
 			Role:  llms.ChatMessageTypeHuman,
-			Parts: []llms.ContentPart{llms.ImageURLPart("https://github.com/tmc/langchaingongo/blob/main/docs/static/img/parrot-icon.png?raw=true")},
+			Parts: []llms.ContentPart{llms.ImageURLPart("https://github.com/Ideful/langchaingo/blob/main/docs/static/img/parrot-icon.png?raw=true")},
 		},
 	}
 
