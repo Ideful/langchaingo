@@ -8,14 +8,14 @@ import (
 	"testing"
 
 	"github.com/Ideful/langchaingo/chains"
-	"github.com/google/uuid"
-	"github.com/stretchr/testify/require"
-	"github.com/testcontainers/testcontainers-go"
-	tcweaviate "github.com/testcontainers/testcontainers-go/modules/weaviate"
 	"github.com/Ideful/langchaingo/embeddings"
 	"github.com/Ideful/langchaingo/llms/openai"
 	"github.com/Ideful/langchaingo/schema"
 	"github.com/Ideful/langchaingo/vectorstores"
+	"github.com/google/uuid"
+	"github.com/stretchr/testify/require"
+	"github.com/testcontainers/testcontainers-go"
+	tcweaviate "github.com/testcontainers/testcontainers-go/modules/weaviate"
 	"github.com/weaviate/weaviate-go-client/v4/weaviate/filters"
 	"github.com/weaviate/weaviate/entities/models"
 )

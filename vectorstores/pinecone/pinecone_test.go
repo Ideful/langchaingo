@@ -7,13 +7,13 @@ import (
 	"testing"
 
 	"github.com/Ideful/langchaingo/chains"
-	"github.com/google/uuid"
-	"github.com/stretchr/testify/require"
 	"github.com/Ideful/langchaingo/embeddings"
 	"github.com/Ideful/langchaingo/llms/openai"
 	"github.com/Ideful/langchaingo/schema"
 	"github.com/Ideful/langchaingo/vectorstores"
 	"github.com/Ideful/langchaingo/vectorstores/pinecone"
+	"github.com/google/uuid"
+	"github.com/stretchr/testify/require"
 )
 
 func getValues(t *testing.T) (string, string) {

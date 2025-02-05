@@ -9,17 +9,17 @@ import (
 	"testing"
 
 	"github.com/Ideful/langchaingo/chains"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
-	"github.com/testcontainers/testcontainers-go"
-	tcredis "github.com/testcontainers/testcontainers-go/modules/redis"
-	"github.com/testcontainers/testcontainers-go/wait"
 	"github.com/Ideful/langchaingo/embeddings"
 	"github.com/Ideful/langchaingo/llms"
 	"github.com/Ideful/langchaingo/llms/ollama"
 	"github.com/Ideful/langchaingo/schema"
 	"github.com/Ideful/langchaingo/vectorstores"
 	"github.com/Ideful/langchaingo/vectorstores/redisvector"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
+	"github.com/testcontainers/testcontainers-go"
+	tcredis "github.com/testcontainers/testcontainers-go/modules/redis"
+	"github.com/testcontainers/testcontainers-go/wait"
 )
 
 const ollamaModel = "gemma:2b"

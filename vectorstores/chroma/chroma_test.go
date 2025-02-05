@@ -8,16 +8,16 @@ import (
 	"testing"
 
 	"github.com/Ideful/langchaingo/chains"
-	chromatypes "github.com/amikos-tech/chroma-go/types"
-	"github.com/google/uuid"
-	"github.com/stretchr/testify/require"
-	"github.com/testcontainers/testcontainers-go"
-	tcchroma "github.com/testcontainers/testcontainers-go/modules/chroma"
 	"github.com/Ideful/langchaingo/embeddings"
 	"github.com/Ideful/langchaingo/llms/openai"
 	"github.com/Ideful/langchaingo/schema"
 	"github.com/Ideful/langchaingo/vectorstores"
 	"github.com/Ideful/langchaingo/vectorstores/chroma"
+	chromatypes "github.com/amikos-tech/chroma-go/types"
+	"github.com/google/uuid"
+	"github.com/stretchr/testify/require"
+	"github.com/testcontainers/testcontainers-go"
+	tcchroma "github.com/testcontainers/testcontainers-go/modules/chroma"
 )
 
 // TODO (noodnik2):

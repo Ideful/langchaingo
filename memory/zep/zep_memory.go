@@ -4,10 +4,10 @@ import (
 	"context"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/getzep/zep-go"
-	zepClient "github.com/getzep/zep-go/client"
 	"github.com/Ideful/langchaingo/memory"
 	"github.com/Ideful/langchaingo/schema"
+	"github.com/getzep/zep-go"
+	zepClient "github.com/getzep/zep-go/client"
 )
 
 // Memory is a simple form of memory that remembers previous conversational back and forth directly.

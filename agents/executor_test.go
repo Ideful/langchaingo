@@ -7,13 +7,13 @@ import (
 	"testing"
 
 	"github.com/Ideful/langchaingo/agents"
-	"github.com/stretchr/testify/require"
 	"github.com/Ideful/langchaingo/chains"
 	"github.com/Ideful/langchaingo/llms/openai"
 	"github.com/Ideful/langchaingo/prompts"
 	"github.com/Ideful/langchaingo/schema"
 	"github.com/Ideful/langchaingo/tools"
 	"github.com/Ideful/langchaingo/tools/serpapi"
+	"github.com/stretchr/testify/require"
 )
 
 type testAgent struct {

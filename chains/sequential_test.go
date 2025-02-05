@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"github.com/Ideful/langchaingo/memory"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 	"github.com/Ideful/langchaingo/prompts"
 	"github.com/Ideful/langchaingo/schema"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 )
 
 var errDummy = errors.New("boom")

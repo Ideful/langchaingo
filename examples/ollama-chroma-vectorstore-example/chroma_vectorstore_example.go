@@ -8,11 +8,11 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/embeddings"
-	"github.com/google/uuid"
 	"github.com/Ideful/langchaingo/llms/ollama"
 	"github.com/Ideful/langchaingo/schema"
 	"github.com/Ideful/langchaingo/vectorstores"
 	"github.com/Ideful/langchaingo/vectorstores/chroma"
+	"github.com/google/uuid"
 )
 
 func main() {

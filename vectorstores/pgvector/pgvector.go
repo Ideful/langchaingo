@@ -8,12 +8,12 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/embeddings"
+	"github.com/Ideful/langchaingo/schema"
+	"github.com/Ideful/langchaingo/vectorstores"
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/pgvector/pgvector-go"
-	"github.com/Ideful/langchaingo/schema"
-	"github.com/Ideful/langchaingo/vectorstores"
 )
 
 const (

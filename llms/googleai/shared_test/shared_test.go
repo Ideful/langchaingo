@@ -17,11 +17,11 @@ import (
 	"testing"
 
 	"github.com/Ideful/langchaingo/embeddings"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 	"github.com/Ideful/langchaingo/llms"
 	"github.com/Ideful/langchaingo/llms/googleai"
 	"github.com/Ideful/langchaingo/llms/googleai/vertex"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 )
 
 func newGoogleAIClient(t *testing.T, opts ...googleai.Option) *googleai.GoogleAI {

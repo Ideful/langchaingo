@@ -8,12 +8,12 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/embeddings"
-	"github.com/chewxy/math32"
-	"github.com/google/uuid"
 	"github.com/Ideful/langchaingo/embeddings/cybertron"
 	"github.com/Ideful/langchaingo/schema"
 	"github.com/Ideful/langchaingo/vectorstores"
 	"github.com/Ideful/langchaingo/vectorstores/weaviate"
+	"github.com/chewxy/math32"
+	"github.com/google/uuid"
 )
 
 func cosineSimilarity(x, y []float32) float32 {

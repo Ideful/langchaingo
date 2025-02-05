@@ -6,12 +6,12 @@ import (
 	"fmt"
 
 	"github.com/Ideful/langchaingo/embeddings"
+	"github.com/Ideful/langchaingo/schema"
+	"github.com/Ideful/langchaingo/vectorstores"
 	chromago "github.com/amikos-tech/chroma-go"
 	"github.com/amikos-tech/chroma-go/openai"
 	chromatypes "github.com/amikos-tech/chroma-go/types"
 	"github.com/google/uuid"
-	"github.com/Ideful/langchaingo/schema"
-	"github.com/Ideful/langchaingo/vectorstores"
 	"golang.org/x/exp/maps"
 )
 

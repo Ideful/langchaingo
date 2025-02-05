@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/mitchellh/go-wordwrap"
 	"github.com/Ideful/langchaingo/llms/cache"
 	"github.com/Ideful/langchaingo/llms/cache/inmemory"
 	"github.com/Ideful/langchaingo/llms/ollama"
+	"github.com/mitchellh/go-wordwrap"
 )
 
 const WIDTH = 80

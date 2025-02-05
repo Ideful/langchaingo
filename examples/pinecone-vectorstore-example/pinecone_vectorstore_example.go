@@ -6,11 +6,11 @@ import (
 	"log"
 
 	"github.com/Ideful/langchaingo/embeddings"
-	"github.com/google/uuid"
 	"github.com/Ideful/langchaingo/llms/openai"
 	"github.com/Ideful/langchaingo/schema"
 	"github.com/Ideful/langchaingo/vectorstores"
 	"github.com/Ideful/langchaingo/vectorstores/pinecone"
+	"github.com/google/uuid"
 )
 
 func main() {

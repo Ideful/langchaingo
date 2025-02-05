@@ -8,13 +8,13 @@ import (
 	"time"
 
 	"github.com/Ideful/langchaingo/chains"
-	"github.com/google/uuid"
-	"github.com/stretchr/testify/require"
 	"github.com/Ideful/langchaingo/embeddings"
 	"github.com/Ideful/langchaingo/llms/openai"
 	"github.com/Ideful/langchaingo/schema"
 	"github.com/Ideful/langchaingo/vectorstores"
 	"github.com/Ideful/langchaingo/vectorstores/azureaisearch"
+	"github.com/google/uuid"
+	"github.com/stretchr/testify/require"
 )
 
 func checkEnvVariables(t *testing.T) {

@@ -6,10 +6,10 @@ import (
 	"errors"
 
 	"github.com/Ideful/langchaingo/embeddings"
-	"github.com/google/uuid"
-	"github.com/pinecone-io/go-pinecone/pinecone"
 	"github.com/Ideful/langchaingo/schema"
 	"github.com/Ideful/langchaingo/vectorstores"
+	"github.com/google/uuid"
+	"github.com/pinecone-io/go-pinecone/pinecone"
 	"google.golang.org/protobuf/types/known/structpb"
 )
 
