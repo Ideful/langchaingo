@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/llms/anthropic"
+	"github.com/Ideful/langchaingo/llms"
+	"github.com/Ideful/langchaingongo/llms/anthropic"
 )
 
 func main() {

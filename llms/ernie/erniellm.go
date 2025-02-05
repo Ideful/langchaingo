@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tmc/langchaingo/callbacks"
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/llms/ernie/internal/ernieclient"
+	"github.com/Ideful/langchaingo/callbacks"
+	"github.com/Ideful/langchaingongo/llms"
+	"github.com/Ideful/langchaingongo/llms/ernie/internal/ernieclient"
 )
 
 var (

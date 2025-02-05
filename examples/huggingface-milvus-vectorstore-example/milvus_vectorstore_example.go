@@ -8,12 +8,12 @@ import (
 
 	"github.com/milvus-io/milvus-sdk-go/v2/client"
 	"github.com/milvus-io/milvus-sdk-go/v2/entity"
-	"github.com/tmc/langchaingo/embeddings"
-	"github.com/tmc/langchaingo/llms/openai"
-	"github.com/tmc/langchaingo/schema"
+	"github.com/Ideful/langchaingo/embeddings"
+	"github.com/Ideful/langchaingongo/llms/openai"
+	"github.com/Ideful/langchaingongo/schema"
 
-	"github.com/tmc/langchaingo/vectorstores"
-	"github.com/tmc/langchaingo/vectorstores/milvus"
+	"github.com/Ideful/langchaingongo/vectorstores"
+	"github.com/Ideful/langchaingongo/vectorstores/milvus"
 )
 
 const (

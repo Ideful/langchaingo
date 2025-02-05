@@ -12,12 +12,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/testcontainers/testcontainers-go"
 	tcchroma "github.com/testcontainers/testcontainers-go/modules/chroma"
-	"github.com/tmc/langchaingo/chains"
-	"github.com/tmc/langchaingo/embeddings"
-	"github.com/tmc/langchaingo/llms/openai"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/vectorstores"
-	"github.com/tmc/langchaingo/vectorstores/chroma"
+	"github.com/Ideful/langchaingo/chains"
+	"github.com/Ideful/langchaingongo/embeddings"
+	"github.com/Ideful/langchaingongo/llms/openai"
+	"github.com/Ideful/langchaingongo/schema"
+	"github.com/Ideful/langchaingongo/vectorstores"
+	"github.com/Ideful/langchaingongo/vectorstores/chroma"
 )
 
 // TODO (noodnik2):

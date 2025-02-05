@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/documentloaders"
-	"github.com/tmc/langchaingo/llms/openai"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/textsplitter"
+	"github.com/Ideful/langchaingo/documentloaders"
+	"github.com/Ideful/langchaingongo/llms/openai"
+	"github.com/Ideful/langchaingongo/schema"
+	"github.com/Ideful/langchaingongo/textsplitter"
 )
 
 func loadTestData(t *testing.T) []schema.Document {

@@ -5,9 +5,9 @@ import (
 	"errors"
 	"os"
 
-	"github.com/tmc/langchaingo/callbacks"
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/llms/cohere/internal/cohereclient"
+	"github.com/Ideful/langchaingo/callbacks"
+	"github.com/Ideful/langchaingongo/llms"
+	"github.com/Ideful/langchaingongo/llms/cohere/internal/cohereclient"
 )
 
 var (

@@ -5,9 +5,9 @@ import (
 	"errors"
 	"net/url"
 
-	"github.com/tmc/langchaingo/embeddings"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/vectorstores"
+	"github.com/Ideful/langchaingo/embeddings"
+	"github.com/Ideful/langchaingongo/schema"
+	"github.com/Ideful/langchaingongo/vectorstores"
 )
 
 type Store struct {

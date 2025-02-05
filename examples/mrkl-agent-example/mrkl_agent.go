@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tmc/langchaingo/agents"
-	"github.com/tmc/langchaingo/chains"
-	"github.com/tmc/langchaingo/llms/openai"
-	"github.com/tmc/langchaingo/tools"
-	"github.com/tmc/langchaingo/tools/serpapi"
+	"github.com/Ideful/langchaingo/agents"
+	"github.com/Ideful/langchaingongo/chains"
+	"github.com/Ideful/langchaingongo/llms/openai"
+	"github.com/Ideful/langchaingongo/tools"
+	"github.com/Ideful/langchaingongo/tools/serpapi"
 )
 
 func main() {

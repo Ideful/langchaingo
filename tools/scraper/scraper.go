@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Ideful/langchaingo/tools"
 	"github.com/gocolly/colly"
-	"github.com/tmc/langchaingo/tools"
 )
 
 const (

@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/llms/openai"
-	"github.com/tmc/langchaingo/memory"
-	"github.com/tmc/langchaingo/schema"
+	"github.com/Ideful/langchaingo/llms/openai"
+	"github.com/Ideful/langchaingongo/memory"
+	"github.com/Ideful/langchaingongo/schema"
 )
 
 type testConversationalRetriever struct{}

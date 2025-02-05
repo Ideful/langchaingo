@@ -3,8 +3,8 @@ package agents
 import (
 	"context"
 
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/tools"
+	"github.com/Ideful/langchaingo/schema"
+	"github.com/Ideful/langchaingongo/tools"
 )
 
 // Agent is the interface all agents must implement.
