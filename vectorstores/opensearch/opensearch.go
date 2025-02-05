@@ -130,6 +130,7 @@ func (s Store) SimilaritySearch(
 	if err != nil {
 		return output, fmt.Errorf("search.Do err: %w", err)
 	}
+	defer searchResponse.Body.Close()
 
 	body, err := io.ReadAll(searchResponse.Body)
 	if err != nil {
