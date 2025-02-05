@@ -76,9 +76,12 @@ func (s Store) AddDocuments(
 
 	for i, doc := range docs {
 		id := uuid.NewString()
-		_, err := s.documentIndexing(ctx, id, opts.NameSpace, doc.PageContent, vectors[i], doc.Metadata)
+		resp, err := s.documentIndexing(ctx, id, opts.NameSpace, doc.PageContent, vectors[i], doc.Metadata)
 		if err != nil {
 			return ids, err
+		}
+		if resp != nil && resp.Body != nil {
+			resp.Body.Close()
 		}
 		ids = append(ids, id)
 	}
