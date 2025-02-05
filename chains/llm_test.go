@@ -7,10 +7,10 @@ import (
 	"testing"
 
 	"github.com/Ideful/langchaingo/callbacks"
+	"github.com/Ideful/langchaingo/llms/googleai"
+	"github.com/Ideful/langchaingo/llms/openai"
+	"github.com/Ideful/langchaingo/prompts"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingongo/llms/googleai"
-	"github.com/tmc/langchaingongo/llms/openai"
-	"github.com/tmc/langchaingongo/prompts"
 )
 
 func TestLLMChain(t *testing.T) {
@@ -77,7 +77,7 @@ func TestLLMChainWithGoogleAI(t *testing.T) {
 	chain := NewLLMChain(model, prompt)
 
 	// chains tramples over defaults for options, so setting these options
-	// explicitly is required until https://github.com/tmc/langchaingongo/issues/626
+	// explicitly is required until https://github.com/Ideful/langchaingo/issues/626
 	// is fully resolved.
 	result, err := Predict(context.Background(), chain,
 		map[string]any{

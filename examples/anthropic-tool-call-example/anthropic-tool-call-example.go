@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/tmc/langchaingongo/llms/anthropic"
+	"github.com/Ideful/langchaingo/llms/anthropic"
 )
 
 func main() {

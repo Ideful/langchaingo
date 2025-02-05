@@ -14,7 +14,7 @@ import (
 
 	"cloud.google.com/go/vertexai/genai"
 	"github.com/Ideful/langchaingo/internal/imageutil"
-	"github.com/tmc/langchaingongo/llms"
+	"github.com/Ideful/langchaingo/llms"
 	"google.golang.org/api/iterator"
 )
 

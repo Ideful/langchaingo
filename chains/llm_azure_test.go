@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/Ideful/langchaingo/llms/openai"
+	"github.com/Ideful/langchaingo/prompts"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingongo/prompts"
 )
 
 func TestLLMChainAzure(t *testing.T) {

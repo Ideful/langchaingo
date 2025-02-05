@@ -7,8 +7,8 @@ import (
 	"os"
 
 	"github.com/Ideful/langchaingo/llms"
+	"github.com/Ideful/langchaingo/llms/openai"
 	"github.com/joho/godotenv"
-	"github.com/tmc/langchaingongo/llms/openai"
 )
 
 func main() {

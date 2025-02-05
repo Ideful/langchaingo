@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/Ideful/langchaingo/tools"
-	"github.com/tmc/langchaingongo/tools/zapier/internal"
+	"github.com/Ideful/langchaingo/tools/zapier/internal"
 )
 
 type ToolkitOpts struct {

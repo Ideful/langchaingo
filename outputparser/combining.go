@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/tmc/langchaingongo/schema"
+	"github.com/Ideful/langchaingo/schema"
 )
 
 // Combining is a parser that combines multiple parsers into one.

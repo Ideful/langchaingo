@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/tmc/langchaingongo/schema"
+	"github.com/Ideful/langchaingo/schema"
 )
 
 const (

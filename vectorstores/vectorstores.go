@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/tmc/langchaingongo/schema"
+	"github.com/Ideful/langchaingo/schema"
 )
 
 // VectorStore is the interface for saving and querying documents in the

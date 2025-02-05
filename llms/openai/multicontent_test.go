@@ -80,7 +80,7 @@ func TestMultiContentImage(t *testing.T) {
 	llm := newTestClient(t, WithModel("gpt-4-vision-preview"))
 
 	parts := []llms.ContentPart{
-		llms.ImageURLPart("https://github.com/tmc/langchaingongo/blob/main/docs/static/img/parrot-icon.png?raw=true"),
+		llms.ImageURLPart("https://github.com/Ideful/langchaingo/blob/main/docs/static/img/parrot-icon.png?raw=true"),
 		llms.TextPart("describe this image in detail"),
 	}
 	content := []llms.MessageContent{

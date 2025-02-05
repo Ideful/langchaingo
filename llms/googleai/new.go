@@ -6,8 +6,8 @@ import (
 	"context"
 
 	"github.com/Ideful/langchaingo/callbacks"
+	"github.com/Ideful/langchaingo/llms"
 	"github.com/google/generative-ai-go/genai"
-	"github.com/tmc/langchaingongo/llms"
 )
 
 // GoogleAI is a type that represents a Google AI API client.

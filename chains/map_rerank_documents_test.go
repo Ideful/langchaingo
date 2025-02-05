@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/Ideful/langchaingo/prompts"
+	"github.com/Ideful/langchaingo/schema"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingongo/schema"
 )
 
 func TestMapRerankInputVariables(t *testing.T) {

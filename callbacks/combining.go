@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/tmc/langchaingongo/schema"
+	"github.com/Ideful/langchaingo/schema"
 )
 
 // CombiningHandler is a callback handler that combine multi callbacks.

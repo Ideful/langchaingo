@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/tmc/langchaingongo/llms/ollama"
+	"github.com/Ideful/langchaingo/llms/ollama"
 )
 
 func main() {

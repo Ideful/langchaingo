@@ -4,7 +4,7 @@ import (
 	"errors"
 
 	"github.com/Ideful/langchaingo/embeddings"
-	"github.com/tmc/langchaingongo/vectorstores"
+	"github.com/Ideful/langchaingo/vectorstores"
 )
 
 var (

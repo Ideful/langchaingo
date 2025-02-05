@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/llms"
+	"github.com/Ideful/langchaingo/schema"
 	_ "github.com/mattn/go-sqlite3" // sqlite3 driver.
-	"github.com/tmc/langchaingongo/schema"
 )
 
 // SqliteChatMessageHistory is a struct that stores chat messages.

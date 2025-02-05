@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/Ideful/langchaingo/llms"
+	"github.com/Ideful/langchaingo/llms/bedrock"
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime"
-	"github.com/tmc/langchaingongo/llms/bedrock"
 )
 
 func setUpTest() (*bedrockruntime.Client, error) {

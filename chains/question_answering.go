@@ -2,7 +2,7 @@ package chains
 
 import (
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/tmc/langchaingongo/prompts"
+	"github.com/Ideful/langchaingo/prompts"
 )
 
 //nolint:lll

@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/Ideful/langchaingo/llms"
+	"github.com/Ideful/langchaingo/schema"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingongo/schema"
 )
 
 func TestBufferMemory(t *testing.T) {

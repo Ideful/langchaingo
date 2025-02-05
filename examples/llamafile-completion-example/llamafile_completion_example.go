@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/tmc/langchaingongo/llms/llamafile"
+	"github.com/Ideful/langchaingo/llms/llamafile"
 )
 
 func main() {

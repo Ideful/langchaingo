@@ -8,7 +8,7 @@ import (
 
 	"github.com/Ideful/langchaingo/llms/ernie"
 
-	"github.com/tmc/langchaingongo/llms"
+	"github.com/Ideful/langchaingo/llms"
 )
 
 func main() {

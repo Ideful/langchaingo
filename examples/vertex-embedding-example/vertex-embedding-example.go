@@ -10,7 +10,7 @@ import (
 	"os"
 
 	"github.com/Ideful/langchaingo/llms/googleai"
-	"github.com/tmc/langchaingongo/llms/googleai/vertex"
+	"github.com/Ideful/langchaingo/llms/googleai/vertex"
 )
 
 func main() {

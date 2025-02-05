@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/prompts"
-	"github.com/tmc/langchaingongo/tools"
+	"github.com/Ideful/langchaingo/tools"
 )
 
 const (

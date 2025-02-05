@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/tmc/langchaingongo/llms/cohere"
+	"github.com/Ideful/langchaingo/llms/cohere"
 )
 
 func main() {

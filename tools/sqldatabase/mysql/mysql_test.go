@@ -11,10 +11,10 @@ import (
 	"testing"
 
 	"github.com/Ideful/langchaingo/tools/sqldatabase"
+	_ "github.com/Ideful/langchaingo/tools/sqldatabase/mysql"
 	"github.com/stretchr/testify/require"
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/modules/mysql"
-	_ "github.com/tmc/langchaingongo/tools/sqldatabase/mysql"
 )
 
 func Test(t *testing.T) {

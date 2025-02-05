@@ -2,7 +2,7 @@ package agents
 
 import (
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/tmc/langchaingongo/tools"
+	"github.com/Ideful/langchaingo/tools"
 )
 
 const _defaultMaxIterations = 5

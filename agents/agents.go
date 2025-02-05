@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/Ideful/langchaingo/schema"
-	"github.com/tmc/langchaingongo/tools"
+	"github.com/Ideful/langchaingo/tools"
 )
 
 // Agent is the interface all agents must implement.

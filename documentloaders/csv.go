@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/schema"
-	"github.com/tmc/langchaingongo/textsplitter"
+	"github.com/Ideful/langchaingo/textsplitter"
 	"golang.org/x/exp/slices"
 )
 

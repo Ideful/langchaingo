@@ -9,7 +9,7 @@ import (
 	"os"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/tmc/langchaingongo/llms/openai"
+	"github.com/Ideful/langchaingo/llms/openai"
 )
 
 var flagModel = flag.String("model", "o1-preview", "model to use (e.g. 'o1-preview', 'o1-mini')")

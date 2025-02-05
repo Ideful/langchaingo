@@ -25,7 +25,7 @@
 // Usage:
 //
 //	import (
-//	    "github.com/tmc/langchaingongo/vectorstores/mongovector"
+//	    "github.com/Ideful/langchaingo/vectorstores/mongovector"
 //	    "go.mongodb.org/mongo-driver/mongo"
 //	)
 //

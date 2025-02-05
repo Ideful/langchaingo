@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	"github.com/Ideful/langchaingo/tools/sqldatabase"
+	_ "github.com/Ideful/langchaingo/tools/sqldatabase/sqlite3"
 	"github.com/stretchr/testify/require"
-	_ "github.com/tmc/langchaingongo/tools/sqldatabase/sqlite3"
 )
 
 func Test(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/Ideful/langchaingo/embeddings"
-	"github.com/tmc/langchaingongo/llms/openai"
+	"github.com/Ideful/langchaingo/llms/openai"
 )
 
 func Example() { //nolint:testableexamples

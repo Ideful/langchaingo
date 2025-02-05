@@ -5,7 +5,7 @@ import (
 	"regexp"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/tmc/langchaingongo/schema"
+	"github.com/Ideful/langchaingo/schema"
 )
 
 // RegexParser is an output parser used to parse the output of an LLM as a map.

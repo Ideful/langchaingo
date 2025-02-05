@@ -10,7 +10,7 @@ import (
 	"slices"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/tmc/langchaingongo/llms/ollama"
+	"github.com/Ideful/langchaingo/llms/ollama"
 )
 
 var flagVerbose = flag.Bool("v", false, "verbose mode")
