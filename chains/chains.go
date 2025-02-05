@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/Ideful/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/schema"
 )
 
 // Key name used to store the intermediate steps in the output, when configured.

@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/Ideful/langchaingo/embeddings"
-	"github.com/Ideful/langchaingongo/llms/mistral"
-	"github.com/Ideful/langchaingongo/schema"
-	"github.com/Ideful/langchaingongo/vectorstores"
-	"github.com/Ideful/langchaingongo/vectorstores/pgvector"
+	"github.com/tmc/langchaingongo/llms/mistral"
+	"github.com/tmc/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/vectorstores"
+	"github.com/tmc/langchaingongo/vectorstores/pgvector"
 )
 
 func main() {

@@ -7,14 +7,14 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Ideful/langchaingo/chains"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
-	"github.com/Ideful/langchaingo/chains"
-	"github.com/Ideful/langchaingongo/embeddings"
-	"github.com/Ideful/langchaingongo/llms/openai"
-	"github.com/Ideful/langchaingongo/schema"
-	"github.com/Ideful/langchaingongo/vectorstores"
-	"github.com/Ideful/langchaingongo/vectorstores/azureaisearch"
+	"github.com/tmc/langchaingongo/embeddings"
+	"github.com/tmc/langchaingongo/llms/openai"
+	"github.com/tmc/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/vectorstores"
+	"github.com/tmc/langchaingongo/vectorstores/azureaisearch"
 )
 
 func checkEnvVariables(t *testing.T) {

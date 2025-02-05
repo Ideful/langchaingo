@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/schema"
 )
 
 // ChatMessageHistory is a struct that stores chat messages.

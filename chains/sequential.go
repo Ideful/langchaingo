@@ -7,9 +7,9 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/internal/maputil"
-	"github.com/Ideful/langchaingongo/internal/setutil"
-	"github.com/Ideful/langchaingongo/memory"
-	"github.com/Ideful/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/internal/setutil"
+	"github.com/tmc/langchaingongo/memory"
+	"github.com/tmc/langchaingongo/schema"
 )
 
 const delimiter = ","

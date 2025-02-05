@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/schema"
 )
 
 // ParseError is the error type returned by output parsers.

@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/Ideful/langchaingo/embeddings"
-	"github.com/Ideful/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/schema"
 )
 
 // Option is a function that configures an Options.

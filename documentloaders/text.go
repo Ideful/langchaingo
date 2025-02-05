@@ -6,7 +6,7 @@ import (
 	"io"
 
 	"github.com/Ideful/langchaingo/schema"
-	"github.com/Ideful/langchaingongo/textsplitter"
+	"github.com/tmc/langchaingongo/textsplitter"
 )
 
 // Text loads text data from an io.Reader.

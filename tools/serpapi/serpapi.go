@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/Ideful/langchaingongo/tools"
-	"github.com/Ideful/langchaingongo/tools/serpapi/internal"
+	"github.com/tmc/langchaingongo/tools"
+	"github.com/tmc/langchaingongo/tools/serpapi/internal"
 )
 
 var ErrMissingToken = errors.New("missing the serpapi API key, set it in the SERPAPI_API_KEY environment variable")

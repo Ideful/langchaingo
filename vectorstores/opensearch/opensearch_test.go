@@ -7,17 +7,17 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Ideful/langchaingo/chains"
 	"github.com/google/uuid"
 	opensearchgo "github.com/opensearch-project/opensearch-go"
 	"github.com/stretchr/testify/require"
 	"github.com/testcontainers/testcontainers-go"
 	tcopensearch "github.com/testcontainers/testcontainers-go/modules/opensearch"
-	"github.com/Ideful/langchaingo/chains"
-	"github.com/Ideful/langchaingongo/embeddings"
-	"github.com/Ideful/langchaingongo/llms/openai"
-	"github.com/Ideful/langchaingongo/schema"
-	"github.com/Ideful/langchaingongo/vectorstores"
-	"github.com/Ideful/langchaingongo/vectorstores/opensearch"
+	"github.com/tmc/langchaingongo/embeddings"
+	"github.com/tmc/langchaingongo/llms/openai"
+	"github.com/tmc/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/vectorstores"
+	"github.com/tmc/langchaingongo/vectorstores/opensearch"
 )
 
 func getEnvVariables(t *testing.T) (string, string, string) {

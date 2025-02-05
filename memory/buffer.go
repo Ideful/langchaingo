@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/schema"
 )
 
 // ErrInvalidInputValues is returned when input values given to a memory in save context are invalid.

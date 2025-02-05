@@ -6,13 +6,13 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Ideful/langchaingo/llms/openai"
 	z "github.com/getzep/zep-go"
 	zClient "github.com/getzep/zep-go/client"
 	zOption "github.com/getzep/zep-go/option"
 	"github.com/stretchr/testify/require"
-	"github.com/Ideful/langchaingo/llms/openai"
-	"github.com/Ideful/langchaingongo/memory"
-	"github.com/Ideful/langchaingongo/memory/zep"
+	"github.com/tmc/langchaingongo/memory"
+	"github.com/tmc/langchaingongo/memory/zep"
 )
 
 func TestConversation(t *testing.T) {

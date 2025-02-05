@@ -7,10 +7,10 @@ import (
 	"log"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/llms/anthropic"
-	"github.com/Ideful/langchaingongo/llms/googleai"
-	"github.com/Ideful/langchaingongo/llms/ollama"
-	"github.com/Ideful/langchaingongo/llms/openai"
+	"github.com/tmc/langchaingongo/llms/anthropic"
+	"github.com/tmc/langchaingongo/llms/googleai"
+	"github.com/tmc/langchaingongo/llms/ollama"
+	"github.com/tmc/langchaingongo/llms/openai"
 )
 
 var flagBackend = flag.String("backend", "openai", "backend to use")

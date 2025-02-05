@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/schema"
 )
 
 // LogHandler is a callback handler that prints to the standard output.

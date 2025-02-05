@@ -7,13 +7,13 @@ import (
 	"io"
 	"strings"
 
+	"github.com/Ideful/langchaingo/embeddings"
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/pgvector/pgvector-go"
-	"github.com/Ideful/langchaingo/embeddings"
-	"github.com/Ideful/langchaingongo/schema"
-	"github.com/Ideful/langchaingongo/vectorstores"
+	"github.com/tmc/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/vectorstores"
 )
 
 const (

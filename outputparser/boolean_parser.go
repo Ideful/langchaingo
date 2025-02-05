@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/schema"
 	"golang.org/x/exp/slices"
 )
 

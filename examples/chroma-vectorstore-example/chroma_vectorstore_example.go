@@ -7,11 +7,11 @@ import (
 	"os"
 	"strings"
 
+	"github.com/Ideful/langchaingo/schema"
 	chroma_go "github.com/amikos-tech/chroma-go/types"
 	"github.com/google/uuid"
-	"github.com/Ideful/langchaingo/schema"
-	"github.com/Ideful/langchaingongo/vectorstores"
-	"github.com/Ideful/langchaingongo/vectorstores/chroma"
+	"github.com/tmc/langchaingongo/vectorstores"
+	"github.com/tmc/langchaingongo/vectorstores/chroma"
 )
 
 func main() {

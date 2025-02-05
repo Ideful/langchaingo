@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/Ideful/langchaingongo/llms"
-	"github.com/Ideful/langchaingongo/llms/maritaca/internal/maritacaclient"
+	"github.com/tmc/langchaingongo/llms"
+	"github.com/tmc/langchaingongo/llms/maritaca/internal/maritacaclient"
 )
 
 var (

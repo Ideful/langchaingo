@@ -2,7 +2,7 @@ package openai
 
 import (
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/Ideful/langchaingongo/llms/openai/internal/openaiclient"
+	"github.com/tmc/langchaingongo/llms/openai/internal/openaiclient"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/schema"
 )
 
 // Simple is an output parser that does nothing.

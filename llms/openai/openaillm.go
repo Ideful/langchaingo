@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/Ideful/langchaingongo/llms"
-	"github.com/Ideful/langchaingongo/llms/openai/internal/openaiclient"
+	"github.com/tmc/langchaingongo/llms"
+	"github.com/tmc/langchaingongo/llms/openai/internal/openaiclient"
 )
 
 type ChatMessage = openaiclient.ChatMessage

@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/schema"
 )
 
 // CommaSeparatedList is an output parser used to parse the output of an LLM as a

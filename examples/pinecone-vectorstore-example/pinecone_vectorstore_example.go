@@ -5,20 +5,20 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/google/uuid"
 	"github.com/Ideful/langchaingo/embeddings"
-	"github.com/Ideful/langchaingongo/llms/openai"
-	"github.com/Ideful/langchaingongo/schema"
-	"github.com/Ideful/langchaingongo/vectorstores"
-	"github.com/Ideful/langchaingongo/vectorstores/pinecone"
+	"github.com/google/uuid"
+	"github.com/tmc/langchaingongo/llms/openai"
+	"github.com/tmc/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/vectorstores"
+	"github.com/tmc/langchaingongo/vectorstores/pinecone"
 )
 
 func main() {
 	// Create an embeddings client using the OpenAI API. Requires environment variable OPENAI_API_KEY to be set.
-	
-	llm, err := openai.New(openai.WithEmbeddingModel("text-embedding-3-small"))// Specify your preferred embedding model
+
+	llm, err := openai.New(openai.WithEmbeddingModel("text-embedding-3-small")) // Specify your preferred embedding model
 	if err != nil {
-    		log.Fatal(err)
+		log.Fatal(err)
 	}
 
 	e, err := embeddings.NewEmbedder(llm)

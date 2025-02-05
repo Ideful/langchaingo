@@ -7,13 +7,13 @@ import (
 	"log"
 
 	"github.com/Ideful/langchaingo/chains"
-	"github.com/Ideful/langchaingongo/embeddings"
+	"github.com/tmc/langchaingongo/embeddings"
 
-	"github.com/Ideful/langchaingongo/llms"
-	"github.com/Ideful/langchaingongo/llms/ollama"
-	"github.com/Ideful/langchaingongo/schema"
-	"github.com/Ideful/langchaingongo/vectorstores"
-	"github.com/Ideful/langchaingongo/vectorstores/redisvector"
+	"github.com/tmc/langchaingongo/llms"
+	"github.com/tmc/langchaingongo/llms/ollama"
+	"github.com/tmc/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/vectorstores"
+	"github.com/tmc/langchaingongo/vectorstores/redisvector"
 )
 
 func main() {

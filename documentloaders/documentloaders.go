@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/Ideful/langchaingo/schema"
-	"github.com/Ideful/langchaingongo/textsplitter"
+	"github.com/tmc/langchaingongo/textsplitter"
 )
 
 // Loader is the interface for loading and splitting documents from a source.

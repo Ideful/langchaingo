@@ -2,9 +2,10 @@ package main
 
 import (
 	"context"
-	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/llms/openai"
 	"log"
+
+	"github.com/Ideful/langchaingo/llms"
+	"github.com/tmc/langchaingongo/llms/openai"
 )
 
 type User struct {

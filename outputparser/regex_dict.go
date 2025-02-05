@@ -5,7 +5,7 @@ import (
 	"regexp"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/schema"
 )
 
 // RegexDict is an output parser used to parse the output of an LLM as a map.

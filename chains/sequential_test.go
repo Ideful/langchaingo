@@ -5,11 +5,11 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/Ideful/langchaingo/memory"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/Ideful/langchaingo/memory"
-	"github.com/Ideful/langchaingongo/prompts"
-	"github.com/Ideful/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/prompts"
+	"github.com/tmc/langchaingongo/schema"
 )
 
 var errDummy = errors.New("boom")

@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/Ideful/langchaingo/memory"
-	"github.com/Ideful/langchaingongo/prompts"
-	"github.com/Ideful/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/prompts"
+	"github.com/tmc/langchaingongo/schema"
 )
 
 const (

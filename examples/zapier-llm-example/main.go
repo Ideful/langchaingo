@@ -5,10 +5,10 @@ import (
 	"fmt"
 
 	"github.com/Ideful/langchaingo/agents"
-	"github.com/Ideful/langchaingongo/chains"
-	"github.com/Ideful/langchaingongo/llms/openai"
-	"github.com/Ideful/langchaingongo/tools"
-	"github.com/Ideful/langchaingongo/tools/zapier"
+	"github.com/tmc/langchaingongo/chains"
+	"github.com/tmc/langchaingongo/llms/openai"
+	"github.com/tmc/langchaingongo/tools"
+	"github.com/tmc/langchaingongo/tools/zapier"
 )
 
 func main() {

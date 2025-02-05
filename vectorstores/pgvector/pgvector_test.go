@@ -8,19 +8,19 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Ideful/langchaingo/chains"
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v5"
 	"github.com/stretchr/testify/require"
 	"github.com/testcontainers/testcontainers-go"
 	tcpostgres "github.com/testcontainers/testcontainers-go/modules/postgres"
 	"github.com/testcontainers/testcontainers-go/wait"
-	"github.com/Ideful/langchaingo/chains"
-	"github.com/Ideful/langchaingongo/embeddings"
-	"github.com/Ideful/langchaingongo/llms/googleai"
-	"github.com/Ideful/langchaingongo/llms/openai"
-	"github.com/Ideful/langchaingongo/schema"
-	"github.com/Ideful/langchaingongo/vectorstores"
-	"github.com/Ideful/langchaingongo/vectorstores/pgvector"
+	"github.com/tmc/langchaingongo/embeddings"
+	"github.com/tmc/langchaingongo/llms/googleai"
+	"github.com/tmc/langchaingongo/llms/openai"
+	"github.com/tmc/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/vectorstores"
+	"github.com/tmc/langchaingongo/vectorstores/pgvector"
 )
 
 func preCheckEnvSetting(t *testing.T) string {

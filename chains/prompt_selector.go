@@ -2,7 +2,7 @@ package chains
 
 import (
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/prompts"
+	"github.com/tmc/langchaingongo/prompts"
 )
 
 // PromptSelector is the interface for selecting a formatter depending on the

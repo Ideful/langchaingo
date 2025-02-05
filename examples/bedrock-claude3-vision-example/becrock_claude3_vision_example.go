@@ -7,7 +7,7 @@ import (
 	"log"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/llms/bedrock"
+	"github.com/tmc/langchaingongo/llms/bedrock"
 )
 
 //go:embed image.png

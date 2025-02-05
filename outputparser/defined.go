@@ -8,7 +8,7 @@ import (
 	"reflect"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/schema"
 )
 
 // Defined parses JSON output from an LLM into Go structs. By providing

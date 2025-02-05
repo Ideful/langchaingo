@@ -5,13 +5,13 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/Ideful/langchaingo/embeddings"
 	chromago "github.com/amikos-tech/chroma-go"
 	"github.com/amikos-tech/chroma-go/openai"
 	chromatypes "github.com/amikos-tech/chroma-go/types"
 	"github.com/google/uuid"
-	"github.com/Ideful/langchaingo/embeddings"
-	"github.com/Ideful/langchaingongo/schema"
-	"github.com/Ideful/langchaingongo/vectorstores"
+	"github.com/tmc/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/vectorstores"
 	"golang.org/x/exp/maps"
 )
 

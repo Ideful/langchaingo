@@ -12,8 +12,8 @@ import (
 	"os"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/llms/googleai"
-	"github.com/Ideful/langchaingongo/llms/googleai/vertex"
+	"github.com/tmc/langchaingongo/llms/googleai"
+	"github.com/tmc/langchaingongo/llms/googleai/vertex"
 )
 
 func main() {

@@ -7,9 +7,9 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/chains"
-	"github.com/Ideful/langchaingongo/documentloaders"
-	"github.com/Ideful/langchaingongo/llms/googleai/vertex"
-	"github.com/Ideful/langchaingongo/textsplitter"
+	"github.com/tmc/langchaingongo/documentloaders"
+	"github.com/tmc/langchaingongo/llms/googleai/vertex"
+	"github.com/tmc/langchaingongo/textsplitter"
 )
 
 func main() {

@@ -8,11 +8,11 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/Ideful/langchaingongo/chains"
-	"github.com/Ideful/langchaingongo/llms"
-	"github.com/Ideful/langchaingongo/prompts"
-	"github.com/Ideful/langchaingongo/schema"
-	"github.com/Ideful/langchaingongo/tools"
+	"github.com/tmc/langchaingongo/chains"
+	"github.com/tmc/langchaingongo/llms"
+	"github.com/tmc/langchaingongo/prompts"
+	"github.com/tmc/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/tools"
 )
 
 const (

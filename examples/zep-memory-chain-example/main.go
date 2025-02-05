@@ -3,13 +3,14 @@ package main
 import (
 	"context"
 	"fmt"
+	"os"
+
+	"github.com/Ideful/langchaingo/chains"
 	"github.com/getzep/zep-go"
 	zepClient "github.com/getzep/zep-go/client"
 	zepOption "github.com/getzep/zep-go/option"
-	"github.com/Ideful/langchaingo/chains"
-	"github.com/Ideful/langchaingongo/llms/openai"
-	zepLangchainMemory "github.com/Ideful/langchaingongo/memory/zep"
-	"os"
+	"github.com/tmc/langchaingongo/llms/openai"
+	zepLangchainMemory "github.com/tmc/langchaingongo/memory/zep"
 )
 
 func main() {

@@ -6,9 +6,9 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/memory"
-	"github.com/Ideful/langchaingongo/prompts"
-	"github.com/Ideful/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/memory"
+	"github.com/tmc/langchaingongo/prompts"
+	"github.com/tmc/langchaingongo/schema"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"context"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/schema"
 )
 
 type SimpleHandler struct{}

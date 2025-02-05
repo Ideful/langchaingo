@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/embeddings"
-	"github.com/Ideful/langchaingongo/llms/huggingface"
+	"github.com/tmc/langchaingongo/llms/huggingface"
 )
 
 // Huggingface is the embedder using the Huggingface hub api.

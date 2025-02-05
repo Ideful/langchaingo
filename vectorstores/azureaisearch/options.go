@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/embeddings"
-	"github.com/Ideful/langchaingongo/vectorstores"
+	"github.com/tmc/langchaingongo/vectorstores"
 )
 
 const (

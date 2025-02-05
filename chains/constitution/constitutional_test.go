@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/stretchr/testify/require"
 	"github.com/Ideful/langchaingo/chains"
-	"github.com/Ideful/langchaingongo/llms/openai"
-	"github.com/Ideful/langchaingongo/prompts"
+	"github.com/stretchr/testify/require"
+	"github.com/tmc/langchaingongo/llms/openai"
+	"github.com/tmc/langchaingongo/prompts"
 )
 
 func TestConstitutionCritiqueParsing(t *testing.T) {

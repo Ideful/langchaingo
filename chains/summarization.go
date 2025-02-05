@@ -2,7 +2,7 @@ package chains
 
 import (
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/prompts"
+	"github.com/tmc/langchaingongo/prompts"
 )
 
 const _stuffSummarizationTemplate = `Write a concise summary of the following:

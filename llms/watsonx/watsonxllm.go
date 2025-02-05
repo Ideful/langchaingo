@@ -6,7 +6,7 @@ import (
 
 	wx "github.com/IBM/watsonx-go/pkg/models"
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/Ideful/langchaingongo/llms"
+	"github.com/tmc/langchaingongo/llms"
 )
 
 var (

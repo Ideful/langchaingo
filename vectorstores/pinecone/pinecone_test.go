@@ -6,14 +6,14 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Ideful/langchaingo/chains"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
-	"github.com/Ideful/langchaingo/chains"
-	"github.com/Ideful/langchaingongo/embeddings"
-	"github.com/Ideful/langchaingongo/llms/openai"
-	"github.com/Ideful/langchaingongo/schema"
-	"github.com/Ideful/langchaingongo/vectorstores"
-	"github.com/Ideful/langchaingongo/vectorstores/pinecone"
+	"github.com/tmc/langchaingongo/embeddings"
+	"github.com/tmc/langchaingongo/llms/openai"
+	"github.com/tmc/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/vectorstores"
+	"github.com/tmc/langchaingongo/vectorstores/pinecone"
 )
 
 func getValues(t *testing.T) (string, string) {

@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/stretchr/testify/require"
 	"github.com/Ideful/langchaingo/llms/openai"
-	"github.com/Ideful/langchaingongo/prompts"
-	"github.com/Ideful/langchaingongo/schema"
+	"github.com/stretchr/testify/require"
+	"github.com/tmc/langchaingongo/prompts"
+	"github.com/tmc/langchaingongo/schema"
 )
 
 func TestStuffDocuments(t *testing.T) {

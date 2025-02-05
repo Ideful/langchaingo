@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/Ideful/langchaingo/llms"
 	"github.com/getzep/zep-go"
 	zepClient "github.com/getzep/zep-go/client"
-	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/schema"
 )
 
 // ChatMessageHistory is a struct that stores chat messages.

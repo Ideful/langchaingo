@@ -6,14 +6,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/stretchr/testify/require"
 	"github.com/Ideful/langchaingo/agents"
-	"github.com/Ideful/langchaingongo/chains"
-	"github.com/Ideful/langchaingongo/llms/openai"
-	"github.com/Ideful/langchaingongo/prompts"
-	"github.com/Ideful/langchaingongo/schema"
-	"github.com/Ideful/langchaingongo/tools"
-	"github.com/Ideful/langchaingongo/tools/serpapi"
+	"github.com/stretchr/testify/require"
+	"github.com/tmc/langchaingongo/chains"
+	"github.com/tmc/langchaingongo/llms/openai"
+	"github.com/tmc/langchaingongo/prompts"
+	"github.com/tmc/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/tools"
+	"github.com/tmc/langchaingongo/tools/serpapi"
 )
 
 type testAgent struct {

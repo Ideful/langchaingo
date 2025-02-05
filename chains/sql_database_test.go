@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/stretchr/testify/require"
 	"github.com/Ideful/langchaingo/llms/openai"
-	"github.com/Ideful/langchaingongo/tools/sqldatabase"
-	"github.com/Ideful/langchaingongo/tools/sqldatabase/mysql"
+	"github.com/stretchr/testify/require"
+	"github.com/tmc/langchaingongo/tools/sqldatabase"
+	"github.com/tmc/langchaingongo/tools/sqldatabase/mysql"
 )
 
 func TestSQLDatabaseChain_Call(t *testing.T) {

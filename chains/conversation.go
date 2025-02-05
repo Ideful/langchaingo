@@ -2,9 +2,9 @@ package chains
 
 import (
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/outputparser"
-	"github.com/Ideful/langchaingongo/prompts"
-	"github.com/Ideful/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/outputparser"
+	"github.com/tmc/langchaingongo/prompts"
+	"github.com/tmc/langchaingongo/schema"
 )
 
 //nolint:lll

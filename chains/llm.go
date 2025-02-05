@@ -4,11 +4,11 @@ import (
 	"context"
 
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/Ideful/langchaingongo/llms"
-	"github.com/Ideful/langchaingongo/memory"
-	"github.com/Ideful/langchaingongo/outputparser"
-	"github.com/Ideful/langchaingongo/prompts"
-	"github.com/Ideful/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/llms"
+	"github.com/tmc/langchaingongo/memory"
+	"github.com/tmc/langchaingongo/outputparser"
+	"github.com/tmc/langchaingongo/prompts"
+	"github.com/tmc/langchaingongo/schema"
 )
 
 const _llmChainDefaultOutputKey = "text"

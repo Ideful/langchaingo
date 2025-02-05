@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/llms/watsonx"
+	"github.com/tmc/langchaingongo/llms/watsonx"
 )
 
 func main() {

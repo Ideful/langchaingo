@@ -5,8 +5,8 @@ import (
 	"errors"
 
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/Ideful/langchaingongo/llms"
-	"github.com/Ideful/langchaingongo/llms/llamafile/internal/llamafileclient"
+	"github.com/tmc/langchaingongo/llms"
+	"github.com/tmc/langchaingongo/llms/llamafile/internal/llamafileclient"
 )
 
 var (

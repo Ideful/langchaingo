@@ -9,16 +9,16 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Ideful/langchaingo/chains"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 	"github.com/testcontainers/testcontainers-go"
 	tcqdrant "github.com/testcontainers/testcontainers-go/modules/qdrant"
-	"github.com/Ideful/langchaingo/chains"
-	"github.com/Ideful/langchaingongo/embeddings"
-	"github.com/Ideful/langchaingongo/llms/openai"
-	"github.com/Ideful/langchaingongo/schema"
-	"github.com/Ideful/langchaingongo/vectorstores"
-	"github.com/Ideful/langchaingongo/vectorstores/qdrant"
+	"github.com/tmc/langchaingongo/embeddings"
+	"github.com/tmc/langchaingongo/llms/openai"
+	"github.com/tmc/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/vectorstores"
+	"github.com/tmc/langchaingongo/vectorstores/qdrant"
 )
 
 func TestQdrantStore(t *testing.T) {

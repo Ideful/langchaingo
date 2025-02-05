@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Ideful/langchaingo/llms"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/llms/openai/internal/openaiclient"
+	"github.com/tmc/langchaingongo/llms/openai/internal/openaiclient"
 )
 
 func TestStructuredOutputObjectSchema(t *testing.T) {

@@ -6,10 +6,10 @@ import (
 	"fmt"
 
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/Ideful/langchaingongo/llms"
-	"github.com/Ideful/langchaingongo/prompts"
-	"github.com/Ideful/langchaingongo/schema"
-	"github.com/Ideful/langchaingongo/tools"
+	"github.com/tmc/langchaingongo/llms"
+	"github.com/tmc/langchaingongo/prompts"
+	"github.com/tmc/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/tools"
 )
 
 // agentScratchpad "agent_scratchpad" for the agent to put its thoughts in.

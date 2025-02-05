@@ -8,7 +8,7 @@ import (
 	"os"
 
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/llms/googleai"
+	"github.com/tmc/langchaingongo/llms/googleai"
 )
 
 func main() {

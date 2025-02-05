@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/Ideful/langchaingongo/tools"
+	"github.com/tmc/langchaingongo/tools"
 )
 
 const (

@@ -6,10 +6,10 @@ import (
 	"strings"
 
 	"github.com/Ideful/langchaingo/chains"
-	"github.com/Ideful/langchaingongo/llms"
-	"github.com/Ideful/langchaingongo/memory"
-	"github.com/Ideful/langchaingongo/prompts"
-	"github.com/Ideful/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/llms"
+	"github.com/tmc/langchaingongo/memory"
+	"github.com/tmc/langchaingongo/prompts"
+	"github.com/tmc/langchaingongo/schema"
 )
 
 var (

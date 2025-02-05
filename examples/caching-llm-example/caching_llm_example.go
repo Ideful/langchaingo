@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mitchellh/go-wordwrap"
 	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/llms/cache"
-	"github.com/Ideful/langchaingongo/llms/cache/inmemory"
-	"github.com/Ideful/langchaingongo/llms/ollama"
+	"github.com/mitchellh/go-wordwrap"
+	"github.com/tmc/langchaingongo/llms/cache"
+	"github.com/tmc/langchaingongo/llms/cache/inmemory"
+	"github.com/tmc/langchaingongo/llms/ollama"
 )
 
 const WIDTH = 80

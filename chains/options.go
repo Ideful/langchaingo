@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/Ideful/langchaingongo/llms"
+	"github.com/tmc/langchaingongo/llms"
 )
 
 // ChainCallOption is a function that can be used to modify the behavior of the Call function.

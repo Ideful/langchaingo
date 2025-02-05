@@ -4,11 +4,11 @@ import (
 	"context"
 	"errors"
 
+	"github.com/Ideful/langchaingo/callbacks"
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime"
-	"github.com/Ideful/langchaingo/callbacks"
-	"github.com/Ideful/langchaingongo/llms"
-	"github.com/Ideful/langchaingongo/llms/bedrock/internal/bedrockclient"
+	"github.com/tmc/langchaingongo/llms"
+	"github.com/tmc/langchaingongo/llms/bedrock/internal/bedrockclient"
 )
 
 const defaultModel = ModelAmazonTitanTextLiteV1

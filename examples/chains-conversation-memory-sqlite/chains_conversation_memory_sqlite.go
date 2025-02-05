@@ -7,10 +7,10 @@ import (
 	"os"
 
 	"github.com/Ideful/langchaingo/chains"
-	"github.com/Ideful/langchaingongo/llms"
-	"github.com/Ideful/langchaingongo/llms/openai"
-	"github.com/Ideful/langchaingongo/memory"
-	"github.com/Ideful/langchaingongo/memory/sqlite3"
+	"github.com/tmc/langchaingongo/llms"
+	"github.com/tmc/langchaingongo/llms/openai"
+	"github.com/tmc/langchaingongo/memory"
+	"github.com/tmc/langchaingongo/memory/sqlite3"
 
 	_ "github.com/mattn/go-sqlite3"
 )

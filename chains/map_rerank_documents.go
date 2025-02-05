@@ -7,8 +7,8 @@ import (
 	"strconv"
 
 	"github.com/Ideful/langchaingo/memory"
-	"github.com/Ideful/langchaingongo/outputparser"
-	"github.com/Ideful/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/outputparser"
+	"github.com/tmc/langchaingongo/schema"
 	"golang.org/x/exp/maps"
 )
 

@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
+	"github.com/Ideful/langchaingo/llms"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/llms/openai"
+	"github.com/tmc/langchaingongo/llms/openai"
 )
 
 func TestTokenBufferMemory(t *testing.T) {

@@ -8,9 +8,9 @@ import (
 	"os"
 
 	"github.com/Ideful/langchaingo/chains"
-	"github.com/Ideful/langchaingongo/llms/openai"
-	"github.com/Ideful/langchaingongo/tools/sqldatabase"
-	_ "github.com/Ideful/langchaingongo/tools/sqldatabase/postgresql"
+	"github.com/tmc/langchaingongo/llms/openai"
+	"github.com/tmc/langchaingongo/tools/sqldatabase"
+	_ "github.com/tmc/langchaingongo/tools/sqldatabase/postgresql"
 )
 
 func main() {

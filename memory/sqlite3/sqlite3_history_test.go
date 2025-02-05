@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
+	"github.com/Ideful/langchaingo/llms"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/Ideful/langchaingo/llms"
-	"github.com/Ideful/langchaingongo/memory/sqlite3"
+	"github.com/tmc/langchaingongo/memory/sqlite3"
 )
 
 func TestSqliteChatMessageHistory(t *testing.T) {

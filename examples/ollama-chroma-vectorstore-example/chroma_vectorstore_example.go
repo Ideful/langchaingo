@@ -7,12 +7,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/google/uuid"
 	"github.com/Ideful/langchaingo/embeddings"
-	"github.com/Ideful/langchaingongo/llms/ollama"
-	"github.com/Ideful/langchaingongo/schema"
-	"github.com/Ideful/langchaingongo/vectorstores"
-	"github.com/Ideful/langchaingongo/vectorstores/chroma"
+	"github.com/google/uuid"
+	"github.com/tmc/langchaingongo/llms/ollama"
+	"github.com/tmc/langchaingongo/schema"
+	"github.com/tmc/langchaingongo/vectorstores"
+	"github.com/tmc/langchaingongo/vectorstores/chroma"
 )
 
 func main() {

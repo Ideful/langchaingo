@@ -7,8 +7,8 @@ import (
 	"log"
 
 	"github.com/Ideful/langchaingo/jsonschema"
-	"github.com/Ideful/langchaingongo/llms"
-	"github.com/Ideful/langchaingongo/llms/openai"
+	"github.com/tmc/langchaingongo/llms"
+	"github.com/tmc/langchaingongo/llms/openai"
 )
 
 func main() {
